@@ -4,7 +4,7 @@ import Card from './components/Card';
 function App() {
   return (
     <main>
-      <h1>Flip cards!</h1>
+      <h1 className='main-header'>Flip cards!</h1>
       <Card text="მისინფორმაცია" />
     </main>
   );

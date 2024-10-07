@@ -5,7 +5,7 @@ function Card({ text }) {
   const [cardText, setCardText] = useState(null);
 
   function handleCardClick() {
-    setCardText((prevText) => prevText === null ? <h1>{text}</h1> : null)
+    setCardText((prevText) => prevText === null ? <h2 className='card-text'>{text}</h2> : null)
   }
 
 

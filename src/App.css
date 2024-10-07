@@ -2,6 +2,7 @@ main {
   display: flex;
   flex-direction: column;
 }
-h1 {
+.main-header {
   font-size: 48px;
+  text-align: center;
 }

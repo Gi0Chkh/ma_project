@@ -58,8 +58,13 @@
 .card-container {
     width: 400px;
     height: 200px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2px blue solid;
     border-radius: 15px;
     cursor: pointer;
+}
+.card-text {
+    font-size: 32px;
 }
