@@ -2,7 +2,27 @@ main {
   display: flex;
   flex-direction: column;
 }
-.main-header {
-  font-size: 48px;
+.header-1 {
+  font-size: 128px;
+  font-weight: bold;
   text-align: center;
+  margin: 200px auto;
+}
+.macedonia-news {
+  width: 80%;
+  height: 400px;
+  margin: 100px auto;
+  display: flex;
+  gap: 50px;
+}
+.macedonia-news img {
+  overflow:visible;
+}
+.text-container h2 {
+  font-size: 36px;
+}
+.text-container p {
+  font-size: 24px;
+  color: gray;
+  line-height: 2;
 }
