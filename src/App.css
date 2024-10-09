@@ -3,26 +3,27 @@ main {
   flex-direction: column;
 }
 .header-1 {
-  font-size: 128px;
+  font-size: 96px;
   font-weight: bold;
   text-align: center;
-  margin: 200px auto;
+  margin: 150px auto;
 }
 .macedonia-news {
   width: 80%;
-  height: 400px;
-  margin: 100px auto;
+  height: 350px;
+  margin: 50px auto;
   display: flex;
-  gap: 50px;
+  gap: 25px;
 }
 .macedonia-news img {
-  overflow:visible;
+  width: 40%;
+  object-fit: cover;
+  object-position: top;
 }
 .text-container h2 {
-  font-size: 36px;
+  font-size: 32px;
 }
 .text-container p {
-  font-size: 24px;
   color: gray;
   line-height: 2;
 }
