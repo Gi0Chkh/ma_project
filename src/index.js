@@ -3,11 +3,34 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Macedonia from './pages/news/macedonia';
+import NewsFeed from './pages/NewsFeed';
+import Harris from './pages/news/harris';
+
+const router = createBrowserRouter([
+  {
+    path: "",
+    element : <App />
+  },
+  {
+    path: "/news",
+    element: <NewsFeed />
+  },
+  {
+    path: "/news/Macedonia",
+    element: <Macedonia />
+  },
+  {
+    path: "/news/Harris",
+    element: <Harris />
+  }
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
