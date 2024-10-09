@@ -8,22 +8,3 @@ main {
   text-align: center;
   margin: 150px auto;
 }
-.macedonia-news {
-  width: 80%;
-  height: 350px;
-  margin: 50px auto;
-  display: flex;
-  gap: 25px;
-}
-.macedonia-news img {
-  width: 40%;
-  object-fit: cover;
-  object-position: top;
-}
-.text-container h2 {
-  font-size: 32px;
-}
-.text-container p {
-  color: gray;
-  line-height: 2;
-}

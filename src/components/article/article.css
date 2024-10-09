@@ -1,0 +1,23 @@
+.article-container {
+    width: 80%;
+    height: 350px;
+    margin: 50px auto;
+    display: flex;
+    gap: 25px;
+}
+.article-container img {
+    width: 40%;
+    object-fit: cover;
+    object-position: top;
+}
+.text-container h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+.text-container h3 {
+    font-size: 24px;
+}
+.text-container p {
+    color: gray;
+    line-height: 2;
+}
